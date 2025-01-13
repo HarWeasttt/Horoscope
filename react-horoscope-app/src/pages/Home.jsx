@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Container, Row, Col, Button, ListGroup, Form } from 'react-bootstrap';
 import { FaChevronDown, FaChevronUp } from 'react-icons/fa';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default class Home extends Component {
   constructor(props) {

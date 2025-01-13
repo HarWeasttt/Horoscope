@@ -5,7 +5,6 @@ import { FaUser, FaList } from 'react-icons/fa';
 import telescope from '../images/telescope.png';
 import horoscope from '../images/horoscope.png';
 import coin from '../images/coins.png';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import './style.css';
 
 const BottomNavbar = () => {

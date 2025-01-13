@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Button, ListGroup, Card, Form } from 'react-bootstrap';
 import { FaChevronDown, FaChevronUp, FaStar, FaRegStar } from 'react-icons/fa';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default class Friends extends Component {
   constructor(props) {

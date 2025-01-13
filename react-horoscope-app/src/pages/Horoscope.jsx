@@ -9,15 +9,14 @@ const Horoscope = () => {
   const [isAnimating, setIsAnimating] = useState(false);
 
   const handleGetHoroscope = () => {
-    setIsAnimating(true); // Start animation
+    setIsAnimating(true);
 
-    // Simulate an animation duration (e.g., 2 seconds)
     setTimeout(() => {
-      const newPrediction = `Ваш гороскоп на сегодня: Отличный день для новых начинаний!`; // Example prediction
+      const newPrediction = `Ваш гороскоп на сегодня: Отличный день для новых начинаний!`;
       setPrediction(newPrediction);
-      setHistory((prevHistory) => [newPrediction, ...prevHistory]); // Add to history
-      setIsAnimating(false); // Stop animation
-    }, 2000); // Adjust the timeout as needed
+      setHistory((prevHistory) => [newPrediction, ...prevHistory]);
+      setIsAnimating(false);
+    }, 2000);
   };
 
   return (

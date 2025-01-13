@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Tab, Nav, ListGroup, Button } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default class Tasks extends Component {
   constructor(props) {
@@ -8,7 +7,7 @@ export default class Tasks extends Component {
     this.state = {
       tasks: ['Задание 1', 'Задание 2', 'Задание 3'],
       completedTasks: [],
-      activeKey: 'tasks', // Track the active key
+      activeKey: 'tasks',
     };
   }
 
